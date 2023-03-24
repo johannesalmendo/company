@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font header */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+
+/* header */
+.box-header {
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: radial-gradient(
+      circle at 20% -10%,
+      rgba(174, 65, 80, 1) 10%,
+      rgba(45, 48, 52, 1) 30%,
+      transparent
+    ),
+    radial-gradient(
+      circle at 80% 80%,
+      rgba(127, 9, 157, 1) 0%,
+      rgba(45, 48, 52, 1) 45%
+    );
+}
+
+.text-header_1,
+.text-header_2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 128px;
+  line-height: 120%;
+  font-size: 100px;
+  color: #f4f4f9;
+}
+
+/* main */
+.searchbar-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  color: #2D3034;
+}
+
+.box-main {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+/* footer */
+.box-footer {
+  display: flex;
+}
+
+.box-footer .logo-footer {
+  flex-basis: 70%;
+}
+
+.box-footer .nav-footer {
+  flex-basis: 30%;
+}
+
+/* header FAQ */
+.text-header-faq_1,
+.text-header-faq_2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 128px;
+  line-height: 120%;
+  font-size: 100px;
+  color: #f4f4f9;
+}
+
+.box-collapse {
+  width: 80%;
+  margin: auto;
+}
+
+.box-collapse div button,
+.box-collapse div button:focus,
+.box-collapse div button:hover {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 160%;
+  background-color: #650589;
+  color: #f4f4f9;
+}
+
+.box-collapse div div {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+  background-color: #f7f7f7;
+  color: #2d3034;
+}

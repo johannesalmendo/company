@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font header */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+
+/* header */
+.box-header {
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: radial-gradient(
+      circle at 20% -10%,
+      rgba(174, 65, 80, 1) 10%,
+      rgba(45, 48, 52, 1) 30%,
+      transparent
+    ),
+    radial-gradient(
+      circle at 80% 80%,
+      rgba(127, 9, 157, 1) 0%,
+      rgba(45, 48, 52, 1) 45%
+    );
+}
+
+.text-header_1,
+.text-header_2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 128px;
+  line-height: 120%;
+  font-size: 100px;
+}
+.text-header_1 {
+  color: #f4f4f9;
+}
+.text-header_2 {
+  background: linear-gradient(to bottom, #f4f4f9 40%, #dc61e2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* main */
+.box-main {
+  background: radial-gradient(
+      circle at 80% 5%,
+      rgba(174, 65, 80, 1) -5%,
+      rgba(255, 255, 255, 1) 8%,
+      transparent
+    ),
+    radial-gradient(
+      circle at 10% 25%,
+      rgba(127, 9, 157, 1) 0%,
+      rgba(255, 255, 255, 1) 10%,
+      transparent
+    ),
+    radial-gradient(
+      circle at 100% 60%,
+      rgba(127, 9, 157, 1) 0%,
+      rgba(255, 255, 255, 1) 15%,
+      transparent
+    ),
+    radial-gradient(
+      circle at 35% 100%,
+      rgba(127, 9, 157, 1) 0%,
+      rgba(255, 255, 255, 1) 12%,
+      transparent
+    );
+}
+
+.box-about-sagara-bank,
+.box-why-sagara-bank,
+.box-about-sagara-tech {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.box-about-sagara-bank_left-content img {
+  flex-basis: 50%;
+  border-radius: 50%;
+  margin-left: -100px;
+  width: 635px;
+}
+.box-about-sagara-tech_right-content img {
+  flex-basis: 50%;
+  width: 535px;
+}
+.box-about-sagara-bank_right-content,
+.box-why-sagara-bank_left-content,
+.box-why-sagara-bank_right-content,
+.box-about-sagara-tech_left-content,
+.box-about-sagara-tech_right-content {
+  flex-basis: 50%;
+  padding: 32px;
+  margin: auto;
+}
+.box-about-sagara-bank_right-content {
+  margin-left: 80px;
+}
+.box-about-sagara-bank_right-content_header_1,
+.box-about-sagara-bank_right-content_header_2,
+.box-why-sagara-bank_left-content_header_1,
+.box-why-sagara-bank_left-content_header_2,
+.box-about-sagara-tech_left-content_header_1,
+.box-about-sagara-tech_left-content_header_2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 86px;
+  line-height: 120%;
+}
+.box-about-sagara-bank_right-content_header_1,
+.box-why-sagara-bank_left-content_header_1,
+.box-about-sagara-tech_left-content_header_1 {
+  color: #8208a0;
+}
+.box-about-sagara-bank_right-content_header_2,
+.box-why-sagara-bank_left-content_header_2,
+.box-about-sagara-tech_left-content_header_2 {
+  background: linear-gradient(to bottom, #8208a0 45%, #c94556 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box-why-sagara-bank_right-content_trophy {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.box-why-sagara-bank_right-content_trophy div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box-why-sagara-bank_right-content_trophy div p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 160%;
+  color: #902245;
+  text-align: center;
+}
+
+.costume-line {
+  border: 1px solid #902245;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* main bottom */
+.box-number,
+.box-years div {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.box-number span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 120%;
+  color: #650589;
+}
+
+.box-years {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 100px;
+}
+.text-years1,
+.text-years2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  margin-top: 10px;
+}
+.text-years1 {
+  font-size: 20px;
+}
+.text-years2 {
+  font-size: 16px;
+  color: #ac324d;
+}
+
+/* footer */
+.box-footer {
+  display: flex;
+}
+
+.box-footer .logo-footer {
+  flex-basis: 70%;
+}
+
+.box-footer .nav-footer {
+  flex-basis: 30%;
+}
