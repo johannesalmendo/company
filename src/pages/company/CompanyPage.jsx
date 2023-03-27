@@ -14,20 +14,21 @@ const CompanyPage = () => {
         </div>
       </header>
       <main>
+        <div className="box-white-spacing"></div>
         <div className="box-main">
-          <div className="box-about-sagara-bank">
-            <div className="box-about-sagara-bank_left-content">
-              <img src={sagarateam} alt="sagara team circle" />
+          <div className="flex justify-between px-12 mb-12">
+            <div className="basis-1/2">
+              <img
+                src={sagarateam}
+                alt="sagara team circle"
+                className="img-about-bank"
+              />
             </div>
-            <div className="box-about-sagara-bank_right-content">
-              <span className="box-about-sagara-bank_right-content_header_1">
-                About Sagara
-              </span>
+            <div className="basis-1/2 m-auto">
+              <span className="content-header1">About Sagara</span>
               <br />
-              <span className="box-about-sagara-bank_right-content_header_2">
-                Bank
-              </span>
-              <hr className="costume-line" />
+              <span className="content-header2">Bank</span>
+              <hr class="border bg-purple-600 h-1 w-1/4" />
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -39,16 +40,12 @@ const CompanyPage = () => {
               </p>
             </div>
           </div>
-          <div className="box-why-sagara-bank">
-            <div className="box-why-sagara-bank_left-content">
-              <span className="box-why-sagara-bank_left-content_header_1">
-                Why Sagara
-              </span>
+          <div className="flex justify-between px-12 my-12">
+            <div className="basis-1/2 m-auto">
+              <span className="content-header1">Why Sagara</span>
               <br />
-              <span className="box-why-sagara-bank_left-content_header_2">
-                Bank ?
-              </span>
-              <hr className="costume-line" />
+              <span className="content-header2">Bank ?</span>
+              <hr class="border bg-purple-600 h-1 w-1/4" />
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -56,7 +53,7 @@ const CompanyPage = () => {
                 nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
-            <div className="box-why-sagara-bank_right-content">
+            <div className="basis-1/2">
               <div className="box-why-sagara-bank_right-content_trophy">
                 <div>
                   <img src={trophy} alt="sagara trophy" width={100} />
@@ -77,16 +74,12 @@ const CompanyPage = () => {
               </div>
             </div>
           </div>
-          <div className="box-about-sagara-tech">
-            <div className="box-why-sagara-bank_left-content">
-              <span className="box-about-sagara-tech_left-content_header_1">
-                About Sagara
-              </span>
+          <div className="flex justify-between px-12 my-12">
+            <div className="basis-1/2 m-auto">
+              <span className="content-header1">About Sagara</span>
               <br />
-              <span className="box-about-sagara-tech_left-content_header_2">
-                Technology
-              </span>
-              <hr className="costume-line" />
+              <span className="content-header2">Technology</span>
+              <hr class="border bg-purple-600 h-1 w-1/4" />
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -97,14 +90,27 @@ const CompanyPage = () => {
                 sunt in culpa qui officia deserunt mollit anim id est laborum..
               </p>
             </div>
-            <div className="box-about-sagara-tech_right-content">
-              <img src={sagarateam} alt="sagara team square" />
+            <div className="basis-1/2">
+              <img
+                src={sagarateam}
+                alt="sagara team square"
+                className="w-535"
+              />
             </div>
           </div>
           <div className="box-number">
-            <span>50+</span>
-            <span>100+</span>
-            <span>200+</span>
+            <div>
+              <span>50+</span>
+              <p>Mobile Apps</p>
+            </div>
+            <div>
+              <span>100+</span>
+              <p>Website</p>
+            </div>
+            <div>
+              <span>200+</span>
+              <p>Software Engineers</p>
+            </div>
           </div>
           <div>
             <div className="border-t-2 border-red-600 py-2">
