@@ -14,9 +14,9 @@ const CompanyPage = () => {
         </div>
       </header>
       <main>
-        <div className="box-white-spacing"></div>
+        <div className="box-black-spacing"></div>
         <div className="box-main">
-          <div className="flex justify-between px-12 mb-12">
+          <div className="flex justify-between pt-16 pb-12 mb-12">
             <div className="basis-1/2">
               <img
                 src={sagarateam}
